@@ -1,0 +1,12 @@
+<div>
+    <ul>
+        <li *ngFor='let student of students' type="none">
+            <div>
+                <span>{{student.id}}</span>
+                {{student.firstName}} 
+                {{student.lastName}}
+                <i class="material-icons">remove</i>
+            </div>
+        </li>
+    </ul>
+</div>

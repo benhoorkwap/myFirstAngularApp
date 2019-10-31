@@ -1,0 +1,41 @@
+
+div {
+    width: 400px;
+}
+
+ul {
+
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    user-select: none;
+    
+    padding: 8px 0px;
+    box-sizing: border-box;
+    margin: 5px 0px;
+}
+
+
+
+li > div > i {
+    float: right;
+}
+
+li > div > span {
+    background-color: #ae3434;
+    padding: 8px;
+    width: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+    
+}
+
+li:hover {
+    background-color: #ae5656;
+}
